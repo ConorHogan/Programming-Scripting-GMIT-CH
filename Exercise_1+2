@@ -1,4 +1,4 @@
-#Excerise 1 + 2 
+#Exercise 1 + 2 
 
 def fib(n):
   """This function returns the nth Fibonacci number."""
