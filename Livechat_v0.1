@@ -1,0 +1,14 @@
+#Attempt at combined stopword removal and then count of keywords + write to csv. Only printing at this stage.
+
+file_name = 'Question_text.xlsx' # specify file for input
+import pandas as pd # load panda
+xl_workbook = pd.ExcelFile(file_name)  # Load the excel workbook
+df = xl_workbook.parse("Sheet1")  # Convert the sheet into panda a dataframe
+QList = df['Question'].tolist()  # Convert the desired column into a python list
+Keywordlist = str(QList) #convert list into string
+
+import string
+for c in string.punctuation:
+  Zeropunctuation = Keywordlist.replace(c,"")
+
+print(Zeropunctuation)
