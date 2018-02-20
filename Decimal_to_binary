@@ -1,12 +1,17 @@
 # decimal to binary converter through division
 # automate Tech convergance exercise = Richard Nixon YOB to binary
+# this prints the binary number as a list
 
-decimal = 1913
+decimal = int(input("Insert YOB here: "))
+
+binary_list = []
 
 while decimal > 0:
   if decimal % 2 == 0:
-    print("0")
+    binary_list.append("0")
   elif decimal % 2 > 0:
-    print("1")
+    binary_list.append("1")
   decimal = decimal // 2
+
+print (binary_list)
 
