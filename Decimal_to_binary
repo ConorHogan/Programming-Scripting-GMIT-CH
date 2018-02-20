@@ -1,6 +1,5 @@
-# decimal to binary converter through division
-# automate Tech convergance exercise = Richard Nixon YOB to binary
-# this prints the binary number as a list
+# decimal to binary converter through division - FINAL VERSION
+# Converts decimal to binary through division
 
 decimal = int(input("Insert YOB here: "))
 
@@ -13,5 +12,5 @@ while decimal > 0:
     binary_list.append("1")
   decimal = decimal // 2
 
-print (binary_list)
-
+binary_number = "".join(binary_list)
+print (binary_number)
