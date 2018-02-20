@@ -4,8 +4,9 @@
 decimal = 1913
 
 while decimal > 0:
-  decimal = decimal // 2
   if decimal % 2 == 0:
     print("0")
   elif decimal % 2 > 0:
     print("1")
+  decimal = decimal // 2
+
