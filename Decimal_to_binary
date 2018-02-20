@@ -1,11 +1,11 @@
-# Covert decimal numbers into binary.
+# decimal to binary converter through division
+# automate Tech convergance exercise = Richard Nixon YOB to binary
 
-i = 0
 decimal = 1913
 
-while decimal != 0:
-  decimal = decimal / 2
+while decimal > 0:
+  decimal = decimal // 2
   if decimal % 2 == 0:
-    print (0)
-  else:
-    print (1)
+    print("0")
+  elif decimal % 2 > 0:
+    print("1")
