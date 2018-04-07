@@ -98,7 +98,7 @@ with open("iris.csv") as iris_data:
 #### 2.4.2. Exercise_5 Results Screenshot
 ![alt text](https://github.com/ConorHogan/Programming-Scripting-GMIT-CH/blob/master/Images/Exercise5_Results.png "Exercise_5 Results")
 
-### 2.5 Exercise_6: Factorial Function
+### 2.5. Exercise_6: Factorial Function
 
 #### 2.5.1. Exercise_6 Code
 ```python
@@ -120,13 +120,13 @@ print (factorial(10))
 ## 3. Additional Files
 There are 3 additional files contained in this respository. These can be ignored for the purpose of grading the Problem sets, but feel free to take a look if you like.
 
-### 3.1 Decimal_to_binary.py
+### 3.1. Decimal_to_binary.py
 This converts decimal numbers into binary using division. It was written to automate a task we were given in our Computer Architecture and Technology Convergence Class. The User is prompted to enter their Year of Birth and the programme will convert this number to its binary equivalent.
 
-### 3.2 Conorfib.py
+### 3.2. Conorfib.py
 This is the code for the homework from week 1 of this course. It has been combined with Week 2's homework in section 2.1 above.
 
-### 3.3 Livechat_v0.3.py
+### 3.3. Livechat_v0.3.py
 This was a personal project I attempted to help me at work. We have a Live Chat system and I wanted take an export of that chats over the past year and see if I could get a count of any recurring key words. I had previously tried this at work using Excel, but it couldn't handle the volume of data that there was to sift through so I attempted the task using Python instead. 
 
 When run, the programme prompts the user to enter an "Input" file containing the text of the livechat export. It also asks for a list of "Stopwords" (common words such as Hello, hi, and, but, it etc that should not be counted) and to desingate an "Output" file to write results to. 
