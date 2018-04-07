@@ -14,7 +14,7 @@ Please see below for copies of the code written for each problem set and screens
 
 ### 2.1 Exercise_1+2: Fibonacci calculator
 
-### **Code** 
+#### 2.1.1 Exercise_1+2 Code
 ```python
 def fib(n):
   """This function returns the nth Fibonacci number."""
@@ -41,6 +41,9 @@ print("The first letter", first, "is number", firstno)
 print("The last letter", last, "is number", lastno)
 print("Fibonacci number", x, "is", ans)
 ```
+
+#### Exercise_1+2 Results Screenshot
+![alt text](https://github.com/ConorHogan/Programming-Scripting-GMIT-CH/blob/master/Images/Exercise2_Results.png "Exercise_1+2 Results")
 
 ### 2.2 Exercise_3: Collatz Conjecture
 ```python
