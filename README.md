@@ -1,10 +1,15 @@
 # Programming-Scripting-GMIT-CH
 
-## Introduction 
+## 1. Introduction 
+This repository contains the code written for each of the 6 problem sets assigned in the Programming and Scripting course.
+I have also inserted a copy of the code saved in each of the problem set files under the relevant headings.
+This repository also contains three additional Python files that can be ignored for the purposes of grading the problem sets. Detail on these files is included in the "Additional Files" section below.
 
-## Programming and Scripting Problem Sets
+## 2. Programming and Scripting Problem Sets
 
-### Exercise_1+2: Fib calculator
+Please see below for copies of the code written for each problem set. Additional notes are included where required.
+
+### Exercise_1+2: Fibonacci calculator
 ```python
 def fib(n):
   """This function returns the nth Fibonacci number."""
@@ -45,6 +50,8 @@ while x != 1:
  ```
 
 ### Exercise_4: Project Euler Problem 5
+This may take some time to run, but it does work.
+
 ```python
 answer = 0
 known = 2520
@@ -60,7 +67,9 @@ while not answer:
 print (answer)
 ```
 
-### Exercise_5: Printing Iris CVS
+### Exercise_5: Printing Iris CSV Data as formatted columns
+Please note that "iris.csv" must be downloaded in order for this code to work. 
+
 ```python
 with open("iris.csv") as iris_data:
 
@@ -82,4 +91,8 @@ print (factorial(7))
 print (factorial(10))
 ```
 
-## Additional Files
+## 3. Additional Files
+There are 3 additional files contained in this respository. These can be ignored for the purpose of grading the Problem sets, but feel free to take a look if you like.
+
+### 3.1 Decimal_to_binary.py
+T
