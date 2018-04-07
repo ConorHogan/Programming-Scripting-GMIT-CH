@@ -9,7 +9,7 @@ This repository also contains three additional Python files that can be ignored 
 
 Please see below for copies of the code written for each problem set. Additional notes are included where required.
 
-### Exercise_1+2: Fibonacci calculator
+### 2.1 Exercise_1+2: Fibonacci calculator
 ```python
 def fib(n):
   """This function returns the nth Fibonacci number."""
@@ -37,7 +37,7 @@ print("The last letter", last, "is number", lastno)
 print("Fibonacci number", x, "is", ans)
 ```
 
-### Exercise_3: Collatz Conjecture
+### 2.2 Exercise_3: Collatz Conjecture
 ```python
 x = int(input("Enter number here:"))
 while x != 1:
@@ -49,7 +49,7 @@ while x != 1:
     print (x)
  ```
 
-### Exercise_4: Project Euler Problem 5
+### 2.3 Exercise_4: Project Euler Problem 5
 This may take some time to run, but it does work.
 
 ```python
@@ -67,7 +67,7 @@ while not answer:
 print (answer)
 ```
 
-### Exercise_5: Printing Iris CSV Data as formatted columns
+### 2.4 Exercise_5: Printing Iris CSV Data as formatted columns
 Please note that "iris.csv" must be downloaded in order for this code to work. 
 
 ```python
@@ -77,7 +77,7 @@ with open("iris.csv") as iris_data:
     print('{:1} {:1} {:1} {:1}'.format(line.split(',')[0], line.split(',')[1], line.split(',')[2], line.split(',')[3]))
 ```
 
-### Exercise_6: Factorial Function
+### 2.5 Exercise_6: Factorial Function
 ```python
 def factorial(integer):
     x = 1
@@ -95,4 +95,16 @@ print (factorial(10))
 There are 3 additional files contained in this respository. These can be ignored for the purpose of grading the Problem sets, but feel free to take a look if you like.
 
 ### 3.1 Decimal_to_binary.py
-T
+This converts decimal numbers into binary using division. It was writting to automate a task we were given in our Computer Architecture and Technology Convergence Class. User are prompted to enter their Year of Birth and the programme will convert this number to its binary equivalent.
+
+### 3.2 Conorfib.py
+This is the code for the homework from week 1 of this course. It has been combined with Week 2's homework in section 2.1 above.
+
+### 3.3 Livechat_v0.3.py
+This was a personal project I attempted to help me at work. We have a Live Chat system and I wanted take an export of that chats over the past year and see if I could get a count of any recurring key words. I had previously tried this at work using Excel, but it couldn't handle the volume of data that there was to sift through so I attempted the task using Python instead. 
+
+When run the programme prompts the user to enter an "Input" file containing the text of the livechat export. It also asks for a list of "Stopwords" (common words such as Hello, hi, and, but, it etc that should not be counted) and to desingate an "Output" file to write results to. 
+
+Results get printed into a row in Excel in the format "word:count" e.g email:52 meaning the word email appeared 52 times in chats. 
+
+
