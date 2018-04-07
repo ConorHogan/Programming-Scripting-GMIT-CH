@@ -58,11 +58,12 @@ while x != 1:
     x = (x * 3) + 1
     print (x)
  ```
+ 
 #### 2.2.2. Exercise_3 Results Screenshot
 ![alt text](https://github.com/ConorHogan/Programming-Scripting-GMIT-CH/blob/master/Images/Exercise3_results.png "Exercise_3 Results")
 
 ### 2.3. Exercise_4: Project Euler Problem 5
-Please note that shis may take some time to run, but it does work.
+Please note that this may take some time to run, but it does work.
 
 #### 2.3.1. Exercise_4 Code
 ```python
@@ -118,7 +119,7 @@ print (factorial(10))
 ![alt text](https://github.com/ConorHogan/Programming-Scripting-GMIT-CH/blob/master/Images/Exercise6_results.png "Exercise_6 Results")
 
 ## 3. Additional Files
-There are 3 additional files contained in this respository. These can be ignored for the purpose of grading the Problem sets, but feel free to take a look if you like.
+There are 3 additional files contained in this respository. They have been saved to the "Additional_Files" folder. These can be ignored for the purpose of grading the Problem Sets, but feel free to take a look if you like. 
 
 ### 3.1. Decimal_to_binary.py
 This converts decimal numbers into binary using division. It was written to automate a task we were given in our Computer Architecture and Technology Convergence Class. The User is prompted to enter their Year of Birth and the programme will convert this number to its binary equivalent.
