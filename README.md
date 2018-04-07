@@ -3,13 +3,18 @@
 ## 1. Introduction 
 This repository contains the code written for each of the 6 problem sets assigned in the Programming and Scripting course.
 I have also inserted a copy of the code saved in each of the problem set files under the relevant headings.
-This repository also contains three additional Python files that can be ignored for the purposes of grading the problem sets. Detail on these files is included in the "Additional Files" section below.
+
+This repository also contains three additional Python filessaved in the "Additional_Files" folder that can be ignored for the purposes of grading the problem sets. Detail on these files is included in the "Additional Files" section below.
+
+Finally, the "Images" folder contains screenshots of the programmes outputs when run. These screenshots have been included along with the related snippets of code below.
 
 ## 2. Programming and Scripting Problem Sets
 
-Please see below for copies of the code written for each problem set. Additional notes are included where required.
+Please see below for copies of the code written for each problem set and screenshots of results. Additional notes are included where required.
 
 ### 2.1 Exercise_1+2: Fibonacci calculator
+
+### **Code** 
 ```python
 def fib(n):
   """This function returns the nth Fibonacci number."""
@@ -95,7 +100,7 @@ print (factorial(10))
 There are 3 additional files contained in this respository. These can be ignored for the purpose of grading the Problem sets, but feel free to take a look if you like.
 
 ### 3.1 Decimal_to_binary.py
-This converts decimal numbers into binary using division. It was writting to automate a task we were given in our Computer Architecture and Technology Convergence Class. User are prompted to enter their Year of Birth and the programme will convert this number to its binary equivalent.
+This converts decimal numbers into binary using division. It was written to automate a task we were given in our Computer Architecture and Technology Convergence Class. The User is prompted to enter their Year of Birth and the programme will convert this number to its binary equivalent.
 
 ### 3.2 Conorfib.py
 This is the code for the homework from week 1 of this course. It has been combined with Week 2's homework in section 2.1 above.
@@ -103,7 +108,7 @@ This is the code for the homework from week 1 of this course. It has been combin
 ### 3.3 Livechat_v0.3.py
 This was a personal project I attempted to help me at work. We have a Live Chat system and I wanted take an export of that chats over the past year and see if I could get a count of any recurring key words. I had previously tried this at work using Excel, but it couldn't handle the volume of data that there was to sift through so I attempted the task using Python instead. 
 
-When run the programme prompts the user to enter an "Input" file containing the text of the livechat export. It also asks for a list of "Stopwords" (common words such as Hello, hi, and, but, it etc that should not be counted) and to desingate an "Output" file to write results to. 
+When run, the programme prompts the user to enter an "Input" file containing the text of the livechat export. It also asks for a list of "Stopwords" (common words such as Hello, hi, and, but, it etc that should not be counted) and to desingate an "Output" file to write results to. 
 
 Results get printed into a row in Excel in the format "word:count" e.g email:52 meaning the word email appeared 52 times in chats. 
 
