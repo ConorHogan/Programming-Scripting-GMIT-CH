@@ -1,11 +1,17 @@
 # Programming-Scripting-GMIT-CH
 
-## Exercise_1+2: Fib calculator 
+## Introduction 
 
-## Exercise_3: Collatz Conjecture
+## Programming and Scripting Problem Sets
 
-## Exercise_4: Project Euler Problem 5
+### Exercise_1+2: Fib calculator 
 
-## Exercise_5: Printing Iris CVS
+### Exercise_3: Collatz Conjecture
 
-## Exercise_6: Factorial Function
+### Exercise_4: Project Euler Problem 5
+
+### Exercise_5: Printing Iris CVS
+
+### Exercise_6: Factorial Function
+
+## Additional Files
